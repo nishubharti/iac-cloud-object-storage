@@ -18,11 +18,11 @@ variable "resource_group" {
 variable "cos_instance" {
   description = "name of cos instance"
   type        = string
-  default     = "test-cos-instance1"
+  default     = "test-cos-instance-poc1"
 }
 
 variable "cos_bucket_name" {
   description = "name of the cos bucket"
   type        = string
-  default     = "test-cos-bucket1"
+  default     = "test-cos-bucket-poc1"
 }
